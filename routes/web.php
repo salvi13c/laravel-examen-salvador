@@ -14,22 +14,25 @@ use App\Mail\NombreMailable;
  * |
  */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/home', function () {
+    return view('home');
 });
 
-Route::get('/mail', function () {
-    $correo = new NombreMailable();
-    Mail::to('destinatario@correo.com')->send($correo);
-    return 'Mensaje enviado';
+Route::get('/migraciones', function () {
+     return view('migraciones');
 });
 
-Route::get('/viewprueba', function () {
-    return view('mailview');
+
+Route::get('/seeders', function () {
+        return view('seeders');
 });
 
-Route::get('/view2/{name}', function($name){
-    return view ('view2',['name'=>$name]);
-});
+
+    Route::get('/mail', function () {
+        return view('mail');
+    });
+        
+
+
 
 

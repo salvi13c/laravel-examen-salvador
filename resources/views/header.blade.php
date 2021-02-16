@@ -9,16 +9,16 @@
 <div class="collapse navbar-collapse" id="navbarCollapse">
 <ul class="navbar-nav me-auto mb-2 mb-md-0">
 <li class="nav-item">
-<a class="nav-link" aria-current="page" href="#">Home</a>
+<a class="nav-link" aria-current="page" href="/home">Home</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="#">Migraciones</a>
+<a class="nav-link" href="/migraciones">Migraciones</a>
 </li>
 <li class="nav-item">
-<a class="nav-link " href="#">Seeders</a>
+<a class="nav-link " href="/seeders">Seeders</a>
 </li>
 <li class="nav-item">
-<a class="nav-link " href="#">Mail</a>
+<a class="nav-link " href="/mail">Mail</a>
 </li>
 </ul>
 <form class="d-flex">
