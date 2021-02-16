@@ -13,9 +13,9 @@
 <body>
 <div>
 <p>Mensaje de: {{$name}}</p>
-<b>Titulo:</b>
+<b>-Titulo:</b>
 <p>{{$title}}</p>
-<b>Motivo:</b>
+<b>-Motivo:</b>
 <p>{{$subject}}</p>
 </div>
 </body>
