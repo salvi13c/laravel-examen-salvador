@@ -3,6 +3,8 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Mail\NombreMailable;
 use App\Http\Controllers\examenControlller;
+use App\Http\Controllers\seedersController;
+use Database\Seeders\tablaexamenseeder;
 
 /*
  * |--------------------------------------------------------------------------
@@ -15,22 +17,15 @@ use App\Http\Controllers\examenControlller;
  * |
  */
 
-
-Route::get('/home', examenControlller::class);
-
-Route::get('/migraciones', function () {
-     return view('migraciones');
+Route::get('/home', function () {
+    return view('home');
 });
-
-
-Route::get('/seeders', function () {
-        return view('seeders');
+    
+Route::get('/migraciones', examenControlller::class);
+Route::get('/seeders', seedersController::class);
+Route::get('/mail', function () {
+    return view('mail');
 });
-
-
-    Route::get('/mail', function () {
-        return view('mail');
-    });
         
 
 

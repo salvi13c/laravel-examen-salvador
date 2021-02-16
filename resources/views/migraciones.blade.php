@@ -1,4 +1,4 @@
 @extends('layout')
 @section('content')
-Migraciones
+tu petición se ha realizado correctamente.
 @stop

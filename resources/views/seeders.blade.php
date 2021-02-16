@@ -1,4 +1,4 @@
 @extends('layout')
 @section('content')
-Seeders
+tu petición se ha realizado correctamente.
 @stop

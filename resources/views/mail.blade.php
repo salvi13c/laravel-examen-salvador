@@ -1,5 +1,5 @@
 @extends('layout')
 @section('content')
-Mail
+tu petición se ha realizado correctamente.
 @stop
 
