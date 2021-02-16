@@ -13,6 +13,8 @@
 <body>
 <div>
 <p>Mensaje de: {{$name}}</p>
+<b>Titulo:</b>
+<p>{{$title}}</p>
 <b>Motivo:</b>
 <p>{{$subject}}</p>
 </div>

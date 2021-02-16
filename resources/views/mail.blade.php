@@ -13,11 +13,11 @@
 			</div>
 		</div>
 		<div class="form-row">
+		<div class="col-md-12 col-12 p-4">
+				<input type="text" class="form-control" id='title' name='title' placeholder="Titulo" required>
+			</div>
 			<div class="col-md-12 col-12 p-4">
 				<input type="text" class="form-control" id='subject' name='subject' placeholder="Asunto" required>
-			</div>
-			<div class="col-12 p-4">
-				<textarea class="message-input form-control rounded-0" placeholder="Su mensaje" id="message" name="message" rows="10"></textarea>
 			</div>
 		</div>
 		<div class="p-4">

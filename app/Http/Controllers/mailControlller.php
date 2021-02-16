@@ -20,6 +20,7 @@ public function EnviarMail(Request $request)
     Mail::send(['html'=>'plantillaMail'], $data=[
         'name' => $request->get('name'),
         'email' => $request->get('email'),
+        'title' => $request->get('title'),
         'subject' => $request->get('subject')
     ],
         function ($message) use ($request) {
